@@ -1,6 +1,4 @@
-'use strict'
-const fs = require('fs')
-const axios = require('axios')
+// deno run --allow-net --allow-write  ./tools/create-data.js
 
 const query = `
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -24,9 +22,10 @@ const url = `https://sparql.crssnky.xyz/spql/imas/query?output=json&query=${enco
 )}`
 
 async function main() {
-  const res = await axios.get(url)
+  const res = await fetch(url)
+  const json = await res.json()
 
-  const bindings = res.data.results.bindings.sort((a, b) =>
+  const bindings = json.results.bindings.sort((a, b) =>
     a.nameKana.value.localeCompare(b.nameKana.value, 'ja')
   )
 
@@ -37,7 +36,7 @@ async function main() {
     }
   })
 
-  fs.writeFileSync(
+  Deno.writeTextFileSync(
     './data/list.ts',
     'export const list = ' + JSON.stringify(results, null, '  ')
   )
