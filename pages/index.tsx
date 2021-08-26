@@ -1,4 +1,4 @@
-import Home from '../components/templates/home'
+import Home from '../components/home'
 
 const PBG = () => <Home />
 
