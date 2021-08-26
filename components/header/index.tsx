@@ -1,6 +1,8 @@
+import { site } from '../../data/site'
+
 const Header = () => (
   <div className="mb-6 text-center">
-    <span className="text-4xl">"担当アイドルのバッジをつくるやつ"</span>
+    <span className="text-4xl">{site.title}</span>
   </div>
 )
 
