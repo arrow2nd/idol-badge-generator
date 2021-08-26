@@ -35,7 +35,7 @@ export const useIdolData = (name: string): Idol | undefined => {
         const results: Idol = {
           name: binding.name.value,
           hex: binding.hex.value,
-          url: binding.url.value
+          url: binding.url?.value || 'https://idolmaster-official.jp/'
         }
 
         setIdolData(results)
