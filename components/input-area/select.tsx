@@ -25,6 +25,7 @@ const Select = forwardRef((props: Props, ref: ForwardedRef<any>) => {
       <ReactSelect
         className="w-64"
         instanceId={props.title}
+        placeholder="選択してください"
         defaultValue={
           props.defaultValueIndex ? props.list[props.defaultValueIndex] : null
         }
