@@ -4,12 +4,15 @@ import Input from './input'
 
 type Props = {
   idolData: Idol
+  style: string
 }
 
-const Results = ({ idolData }: Props) => {
-  const label = encodeURIComponent('担当')
-  const name = encodeURIComponent(idolData.name)
-  const url = `https://img.shields.io/badge/${label}-${name}-${idolData.hex}`
+const Results = ({ idolData, style }: Props) => {
+  const paramLabel = encodeURIComponent('担当')
+  const paramName = encodeURIComponent(idolData.name)
+  const paramStyle = style ? `?style=${style}` : ''
+
+  const url = `https://img.shields.io/badge/${paramLabel}-${paramName}-${idolData.hex}${paramStyle}`
   const markdown = `[![${idolData.name}](${url})](${idolData.url})`
 
   return (

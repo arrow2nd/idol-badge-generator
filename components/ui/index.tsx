@@ -1,21 +1,28 @@
-import { useRef, useState } from 'react'
+import { useState } from 'react'
 import { useIdolData } from '../../hooks/useIdolData'
-import Select from './select'
-import Results from '../results'
+import InputArea from '../input-area'
+import Result from '../result'
 
 const UI = () => {
   const [name, setName] = useState('')
-  const selectRef = useRef(null)
+  const [style, setStyle] = useState('')
   const idolData = useIdolData(name)
 
   const handleNameChange = (name: string) => {
     setName(name)
   }
 
+  const handleStyleChange = (style: string) => {
+    setStyle(style)
+  }
+
   return (
     <div className="flex flex-col items-center text-center">
-      <Select onChange={handleNameChange} ref={selectRef} />
-      {idolData && <Results idolData={idolData} />}
+      <InputArea
+        onChangeName={handleNameChange}
+        onChangeStyle={handleStyleChange}
+      />
+      {idolData && <Result idolData={idolData} style={style} />}
     </div>
   )
 }

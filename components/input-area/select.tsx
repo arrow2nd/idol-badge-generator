@@ -1,9 +1,14 @@
 import { forwardRef, ForwardedRef } from 'react'
-import { list } from '../../data/list'
 import ReactSelect from 'react-select'
 import Title from '../title'
 
 type Props = {
+  title: string
+  list: {
+    value: string
+    label: string
+  }[]
+  defaultValueIndex?: number
   onChange: (name: string) => void
 }
 
@@ -15,12 +20,15 @@ const Select = forwardRef((props: Props, ref: ForwardedRef<any>) => {
   }
 
   return (
-    <div className="mb-6">
-      <Title text="アイドル名を選択" />
+    <div className="flex flex-col items-center mb-6">
+      <Title text={props.title} />
       <ReactSelect
         className="w-64"
-        instanceId="idol"
-        options={list}
+        instanceId={props.title}
+        defaultValue={
+          props.defaultValueIndex ? props.list[props.defaultValueIndex] : null
+        }
+        options={props.list}
         onChange={handleChangeSelect}
         ref={ref}
       />
