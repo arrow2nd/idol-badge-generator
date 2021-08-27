@@ -4,12 +4,11 @@ const query = `
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX imas: <https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-SELECT DISTINCT ?name ?nameKana ?hex
+SELECT DISTINCT ?name ?nameKana
 WHERE {
   ?d rdf:type ?type;
      rdfs:label ?name;
-     imas:Color ?hex.     
-  FILTER(?type = imas:Idol)
+     FILTER(?type = imas:Idol)
 
   OPTIONAL{ ?d imas:alternateNameKana ?nameKana }
   OPTIONAL{ ?d imas:nameKana ?nameKana }
@@ -37,8 +36,8 @@ async function main() {
   })
 
   Deno.writeTextFileSync(
-    './data/list.ts',
-    'export const list = ' + JSON.stringify(results, null, '  ')
+    './data/idol-list.ts',
+    'export const IdolList = ' + JSON.stringify(results, null, '  ')
   )
 
   console.log('success!')
