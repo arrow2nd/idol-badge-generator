@@ -1,7 +1,19 @@
-export const list = [
+export const IdolList = [
+  {
+    value: '相川千夏',
+    label: '相川千夏'
+  },
+  {
+    value: '愛野渚',
+    label: '愛野渚'
+  },
   {
     value: '相葉夕美',
     label: '相葉夕美'
+  },
+  {
+    value: '相原雪乃',
+    label: '相原雪乃'
   },
   {
     value: '蒼井享介',
@@ -20,12 +32,12 @@ export const list = [
     label: '赤城みりあ'
   },
   {
-    value: '秋月律子',
-    label: '秋月律子'
+    value: '赤西瑛梨華',
+    label: '赤西瑛梨華'
   },
   {
-    value: '秋月涼',
-    label: '秋月涼'
+    value: '秋月律子',
+    label: '秋月律子'
   },
   {
     value: '秋月涼',
@@ -48,6 +60,18 @@ export const list = [
     label: '浅倉透'
   },
   {
+    value: '浅野風香',
+    label: '浅野風香'
+  },
+  {
+    value: '朝比奈りん',
+    label: '朝比奈りん'
+  },
+  {
+    value: '浅利七海',
+    label: '浅利七海'
+  },
+  {
     value: 'アスラン=BBⅡ世',
     label: 'アスラン=BBⅡ世'
   },
@@ -64,16 +88,36 @@ export const list = [
     label: '天ヶ瀬冬馬'
   },
   {
+    value: '天峰秀',
+    label: '天峰秀'
+  },
+  {
     value: '天海春香',
     label: '天海春香'
+  },
+  {
+    value: '綾瀬穂乃香',
+    label: '綾瀬穂乃香'
   },
   {
     value: '荒木比奈',
     label: '荒木比奈'
   },
   {
+    value: '有浦柑奈',
+    label: '有浦柑奈'
+  },
+  {
     value: '有栖川夏葉',
     label: '有栖川夏葉'
+  },
+  {
+    value: '安斎都',
+    label: '安斎都'
+  },
+  {
+    value: 'イヴ・サンタクロース',
+    label: 'イヴ・サンタクロース'
   },
   {
     value: '五十嵐響子',
@@ -84,8 +128,16 @@ export const list = [
     label: '斑鳩ルカ'
   },
   {
+    value: '池袋晶葉',
+    label: '池袋晶葉'
+  },
+  {
     value: '伊集院北斗',
     label: '伊集院北斗'
+  },
+  {
+    value: '伊集院惠',
+    label: '伊集院惠'
   },
   {
     value: '和泉愛依',
@@ -112,12 +164,44 @@ export const list = [
     label: '伊吹翼'
   },
   {
+    value: '今井加奈',
+    label: '今井加奈'
+  },
+  {
+    value: 'イム・ユジン',
+    label: 'イム・ユジン'
+  },
+  {
+    value: '井村雪菜',
+    label: '井村雪菜'
+  },
+  {
     value: '上田鈴帆',
     label: '上田鈴帆'
   },
   {
+    value: '氏家むつみ',
+    label: '氏家むつみ'
+  },
+  {
     value: '卯月巻緒',
     label: '卯月巻緒'
+  },
+  {
+    value: '梅木音葉',
+    label: '梅木音葉'
+  },
+  {
+    value: '江上椿',
+    label: '江上椿'
+  },
+  {
+    value: '衛藤美紗希',
+    label: '衛藤美紗希'
+  },
+  {
+    value: '海老原菜帆',
+    label: '海老原菜帆'
   },
   {
     value: 'エミリー',
@@ -132,6 +216,10 @@ export const list = [
     label: '及川雫'
   },
   {
+    value: '大石泉',
+    label: '大石泉'
+  },
+  {
     value: '大神環',
     label: '大神環'
   },
@@ -144,8 +232,28 @@ export const list = [
     label: '大崎甜花'
   },
   {
+    value: '太田優',
+    label: '太田優'
+  },
+  {
     value: '大槻唯',
     label: '大槻唯'
+  },
+  {
+    value: '大西由里子',
+    label: '大西由里子'
+  },
+  {
+    value: '大沼くるみ',
+    label: '大沼くるみ'
+  },
+  {
+    value: '大原みちる',
+    label: '大原みちる'
+  },
+  {
+    value: '岡崎泰葉',
+    label: '岡崎泰葉'
   },
   {
     value: '緒方智絵里',
@@ -158,6 +266,10 @@ export const list = [
   {
     value: '奥空心白',
     label: '奥空心白'
+  },
+  {
+    value: '奥山沙織',
+    label: '奥山沙織'
   },
   {
     value: '乙倉悠貴',
@@ -224,8 +336,16 @@ export const list = [
     label: '如月千早'
   },
   {
+    value: '岸部彩華',
+    label: '岸部彩華'
+  },
+  {
     value: '北上麗花',
     label: '北上麗花'
+  },
+  {
+    value: '北川真尋',
+    label: '北川真尋'
   },
   {
     value: '北沢志保',
@@ -248,6 +368,10 @@ export const list = [
     label: '木下ひなた'
   },
   {
+    value: '木場真奈美',
+    label: '木場真奈美'
+  },
+  {
     value: '木村夏樹',
     label: '木村夏樹'
   },
@@ -256,12 +380,48 @@ export const list = [
     label: '木村龍'
   },
   {
+    value: 'キャシー・グラハム',
+    label: 'キャシー・グラハム'
+  },
+  {
     value: '清澄九郎',
     label: '清澄九郎'
   },
   {
+    value: '桐野アヤ',
+    label: '桐野アヤ'
+  },
+  {
+    value: '桐生つかさ',
+    label: '桐生つかさ'
+  },
+  {
+    value: '日下部若葉',
+    label: '日下部若葉'
+  },
+  {
     value: '葛之葉雨彦',
     label: '葛之葉雨彦'
+  },
+  {
+    value: '工藤忍',
+    label: '工藤忍'
+  },
+  {
+    value: 'クラリス',
+    label: 'クラリス'
+  },
+  {
+    value: '栗原ネネ',
+    label: '栗原ネネ'
+  },
+  {
+    value: '黒川千秋',
+    label: '黒川千秋'
+  },
+  {
+    value: '黒埼ちとせ',
+    label: '黒埼ちとせ'
   },
   {
     value: '黒野玄武',
@@ -272,12 +432,24 @@ export const list = [
     label: '桑山千雪'
   },
   {
+    value: 'ケイト',
+    label: 'ケイト'
+  },
+  {
     value: '高坂海美',
     label: '高坂海美'
   },
   {
+    value: '古賀小春',
+    label: '古賀小春'
+  },
+  {
     value: '輿水幸子',
     label: '輿水幸子'
+  },
+  {
+    value: '小関麗奈',
+    label: '小関麗奈'
   },
   {
     value: '小早川紗枝',
@@ -288,20 +460,56 @@ export const list = [
     label: '小日向美穂'
   },
   {
+    value: '小松伊吹',
+    label: '小松伊吹'
+  },
+  {
     value: '小宮果穂',
     label: '小宮果穂'
+  },
+  {
+    value: '小室千奈美',
+    label: '小室千奈美'
   },
   {
     value: '古論クリス',
     label: '古論クリス'
   },
   {
+    value: '西園寺琴歌',
+    label: '西園寺琴歌'
+  },
+  {
     value: '西城樹里',
     label: '西城樹里'
   },
   {
+    value: '財前時子',
+    label: '財前時子'
+  },
+  {
+    value: '斉藤洋子',
+    label: '斉藤洋子'
+  },
+  {
+    value: 'サイネリア',
+    label: 'サイネリア'
+  },
+  {
+    value: '冴島清美',
+    label: '冴島清美'
+  },
+  {
     value: '榊夏来',
     label: '榊夏来'
+  },
+  {
+    value: '榊原里美',
+    label: '榊原里美'
+  },
+  {
+    value: '鷺沢文香',
+    label: '鷺沢文香'
   },
   {
     value: '佐久間まゆ',
@@ -310,6 +518,10 @@ export const list = [
   {
     value: '櫻井桃華',
     label: '櫻井桃華'
+  },
+  {
+    value: '桜井夢子',
+    label: '桜井夢子'
   },
   {
     value: '櫻木真乃',
@@ -328,12 +540,28 @@ export const list = [
     label: '佐々木千枝'
   },
   {
+    value: '佐城雪美',
+    label: '佐城雪美'
+  },
+  {
     value: '佐竹美奈子',
     label: '佐竹美奈子'
   },
   {
     value: '佐藤心',
     label: '佐藤心'
+  },
+  {
+    value: '沢田麻理菜',
+    label: '沢田麻理菜'
+  },
+  {
+    value: '三条ともみ',
+    label: '三条ともみ'
+  },
+  {
+    value: '詩花',
+    label: '詩花'
   },
   {
     value: '椎名法子',
@@ -352,6 +580,10 @@ export const list = [
     label: '東雲荘一郎'
   },
   {
+    value: '篠原礼',
+    label: '篠原礼'
+  },
+  {
     value: '篠宮可憐',
     label: '篠宮可憐'
   },
@@ -366,6 +598,14 @@ export const list = [
   {
     value: '島村卯月',
     label: '島村卯月'
+  },
+  {
+    value: '首藤葵',
+    label: '首藤葵'
+  },
+  {
+    value: 'ジュニー',
+    label: 'ジュニー'
   },
   {
     value: 'ジュリア',
@@ -396,6 +636,10 @@ export const list = [
     label: '白瀬咲耶'
   },
   {
+    value: '白雪千夜',
+    label: '白雪千夜'
+  },
+  {
     value: '信玄誠司',
     label: '信玄誠司'
   },
@@ -404,12 +648,36 @@ export const list = [
     label: '周防桃子'
   },
   {
+    value: '杉坂海',
+    label: '杉坂海'
+  },
+  {
+    value: '涼宮星花',
+    label: '涼宮星花'
+  },
+  {
+    value: '砂塚あきら',
+    label: '砂塚あきら'
+  },
+  {
     value: '関裕美',
     label: '関裕美'
   },
   {
+    value: '瀬名詩織',
+    label: '瀬名詩織'
+  },
+  {
     value: '芹沢あさひ',
     label: '芹沢あさひ'
+  },
+  {
+    value: '仙崎恵磨',
+    label: '仙崎恵磨'
+  },
+  {
+    value: '相馬夏美',
+    label: '相馬夏美'
   },
   {
     value: '園田智代子',
@@ -432,8 +700,16 @@ export const list = [
     label: '高槻やよい'
   },
   {
+    value: '高橋礼子',
+    label: '高橋礼子'
+  },
+  {
     value: '鷹富士茄子',
     label: '鷹富士茄子'
+  },
+  {
+    value: '高峯のあ',
+    label: '高峯のあ'
   },
   {
     value: '高森藍子',
@@ -468,8 +744,20 @@ export const list = [
     label: '月岡恋鐘'
   },
   {
+    value: '月宮雅',
+    label: '月宮雅'
+  },
+  {
     value: '九十九一希',
     label: '九十九一希'
+  },
+  {
+    value: '辻野あかり',
+    label: '辻野あかり'
+  },
+  {
+    value: '土屋亜子',
+    label: '土屋亜子'
   },
   {
     value: '都築圭',
@@ -482,6 +770,14 @@ export const list = [
   {
     value: '天道輝',
     label: '天道輝'
+  },
+  {
+    value: '東郷あい',
+    label: '東郷あい'
+  },
+  {
+    value: '東豪寺麗華',
+    label: '東豪寺麗華'
   },
   {
     value: '道明寺歌鈴',
@@ -508,6 +804,10 @@ export const list = [
     label: '中谷育'
   },
   {
+    value: '長富蓮実',
+    label: '長富蓮実'
+  },
+  {
     value: '中野有香',
     label: '中野有香'
   },
@@ -516,12 +816,24 @@ export const list = [
     label: '永吉昴'
   },
   {
+    value: 'ナターリア',
+    label: 'ナターリア'
+  },
+  {
     value: '七尾百合子',
     label: '七尾百合子'
   },
   {
     value: '七草にちか',
     label: '七草にちか'
+  },
+  {
+    value: '並木芽衣子',
+    label: '並木芽衣子'
+  },
+  {
+    value: '成宮由愛',
+    label: '成宮由愛'
   },
   {
     value: '南条光',
@@ -536,6 +848,14 @@ export const list = [
     label: '二階堂千鶴'
   },
   {
+    value: '西川保奈美',
+    label: '西川保奈美'
+  },
+  {
+    value: '西島櫂',
+    label: '西島櫂'
+  },
+  {
     value: '新田美波',
     label: '新田美波'
   },
@@ -544,12 +864,20 @@ export const list = [
     label: '二宮飛鳥'
   },
   {
+    value: '丹羽仁美',
+    label: '丹羽仁美'
+  },
+  {
     value: '猫柳キリオ',
     label: '猫柳キリオ'
   },
   {
     value: '野々原茜',
     label: '野々原茜'
+  },
+  {
+    value: '野々村そら',
+    label: '野々村そら'
   },
   {
     value: '萩原雪歩',
@@ -568,12 +896,24 @@ export const list = [
     label: '八宮めぐる'
   },
   {
+    value: '服部瞳子',
+    label: '服部瞳子'
+  },
+  {
+    value: '花園百々人',
+    label: '花園百々人'
+  },
+  {
     value: '華村翔真',
     label: '華村翔真'
   },
   {
     value: '馬場このみ',
     label: '馬場このみ'
+  },
+  {
+    value: '浜川愛結奈',
+    label: '浜川愛結奈'
   },
   {
     value: '浜口あやめ',
@@ -586,6 +926,14 @@ export const list = [
   {
     value: '速水奏',
     label: '速水奏'
+  },
+  {
+    value: '原田美世',
+    label: '原田美世'
+  },
+  {
+    value: '柊志乃',
+    label: '柊志乃'
   },
   {
     value: 'ピエール',
@@ -620,12 +968,24 @@ export const list = [
     label: '姫野かのん'
   },
   {
+    value: '兵藤レナ',
+    label: '兵藤レナ'
+  },
+  {
     value: '福田のり子',
     label: '福田のり子'
   },
   {
     value: '福丸小糸',
     label: '福丸小糸'
+  },
+  {
+    value: '福山舞',
+    label: '福山舞'
+  },
+  {
+    value: '藤居朋',
+    label: '藤居朋'
   },
   {
     value: '藤本里奈',
@@ -650,6 +1010,14 @@ export const list = [
   {
     value: '冬美旬',
     label: '冬美旬'
+  },
+  {
+    value: '古澤頼子',
+    label: '古澤頼子'
+  },
+  {
+    value: 'ヘレン',
+    label: 'ヘレン'
   },
   {
     value: '北条加蓮',
@@ -688,6 +1056,14 @@ export const list = [
     label: '真壁瑞希'
   },
   {
+    value: '槙原志保',
+    label: '槙原志保'
+  },
+  {
+    value: '松尾千鶴',
+    label: '松尾千鶴'
+  },
+  {
     value: '松田亜利沙',
     label: '松田亜利沙'
   },
@@ -696,12 +1072,44 @@ export const list = [
     label: '松永涼'
   },
   {
+    value: '松原早耶',
+    label: '松原早耶'
+  },
+  {
+    value: '松本沙理奈',
+    label: '松本沙理奈'
+  },
+  {
+    value: '松山久美子',
+    label: '松山久美子'
+  },
+  {
+    value: '的場梨沙',
+    label: '的場梨沙'
+  },
+  {
+    value: '間中美里',
+    label: '間中美里'
+  },
+  {
+    value: '真鍋いつき',
+    label: '真鍋いつき'
+  },
+  {
     value: '黛冬優子',
     label: '黛冬優子'
   },
   {
+    value: '眉見鋭心',
+    label: '眉見鋭心'
+  },
+  {
     value: '三浦あずさ',
     label: '三浦あずさ'
+  },
+  {
+    value: '水木聖來',
+    label: '水木聖來'
   },
   {
     value: '水嶋咲',
@@ -710,6 +1118,10 @@ export const list = [
   {
     value: '水谷絵理',
     label: '水谷絵理'
+  },
+  {
+    value: '水野翠',
+    label: '水野翠'
   },
   {
     value: '水本ゆかり',
@@ -744,6 +1156,10 @@ export const list = [
     label: '宮本フレデリカ'
   },
   {
+    value: '三好紗南',
+    label: '三好紗南'
+  },
+  {
     value: '向井拓海',
     label: '向井拓海'
   },
@@ -756,12 +1172,32 @@ export const list = [
     label: '村上巴'
   },
   {
+    value: '村松さくら',
+    label: '村松さくら'
+  },
+  {
+    value: 'メアリー・コクラン',
+    label: 'メアリー・コクラン'
+  },
+  {
     value: '最上静香',
     label: '最上静香'
   },
   {
+    value: '持田亜里沙',
+    label: '持田亜里沙'
+  },
+  {
     value: '望月杏奈',
     label: '望月杏奈'
+  },
+  {
+    value: '望月聖',
+    label: '望月聖'
+  },
+  {
+    value: '桃井あずき',
+    label: '桃井あずき'
   },
   {
     value: '百瀬莉緒',
@@ -778,6 +1214,26 @@ export const list = [
   {
     value: '諸星きらり',
     label: '諸星きらり'
+  },
+  {
+    value: '楊菲菲',
+    label: '楊菲菲'
+  },
+  {
+    value: '八神マキノ',
+    label: '八神マキノ'
+  },
+  {
+    value: '矢口美羽',
+    label: '矢口美羽'
+  },
+  {
+    value: '柳清良',
+    label: '柳清良'
+  },
+  {
+    value: '柳瀬美由紀',
+    label: '柳瀬美由紀'
   },
   {
     value: '矢吹可奈',
@@ -800,16 +1256,44 @@ export const list = [
     label: '幽谷霧子'
   },
   {
+    value: '遊佐こずえ',
+    label: '遊佐こずえ'
+  },
+  {
+    value: '夢見りあむ',
+    label: '夢見りあむ'
+  },
+  {
+    value: '横山千佳',
+    label: '横山千佳'
+  },
+  {
     value: '横山奈緒',
     label: '横山奈緒'
+  },
+  {
+    value: '吉岡沙紀',
+    label: '吉岡沙紀'
   },
   {
     value: '依田芳乃',
     label: '依田芳乃'
   },
   {
+    value: 'ライラ',
+    label: 'ライラ'
+  },
+  {
+    value: 'リュ・ヘナ',
+    label: 'リュ・ヘナ'
+  },
+  {
     value: '龍崎薫',
     label: '龍崎薫'
+  },
+  {
+    value: '玲音',
+    label: '玲音'
   },
   {
     value: 'ロコ',
@@ -820,8 +1304,16 @@ export const list = [
     label: '若里春名'
   },
   {
+    value: '若林智香',
+    label: '若林智香'
+  },
+  {
     value: '脇山珠美',
     label: '脇山珠美'
+  },
+  {
+    value: '和久井留美',
+    label: '和久井留美'
   },
   {
     value: '渡辺みのり',
