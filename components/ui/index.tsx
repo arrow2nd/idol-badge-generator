@@ -17,7 +17,7 @@ const UI = () => {
   }
 
   return (
-    <div className="flex flex-col items-center text-center">
+    <div className="flex flex-col mb-6 items-center text-center">
       <InputArea
         onChangeName={handleNameChange}
         onChangeStyle={handleStyleChange}

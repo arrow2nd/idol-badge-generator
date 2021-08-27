@@ -2,9 +2,10 @@ import { site } from '../data/site'
 import Head from 'next/head'
 import Header from './header'
 import UI from './ui'
+import Footer from './footer'
 
 const Home = () => (
-  <div className="p-6">
+  <div className="p-10">
     <Head>
       <title>{site.title}</title>
       <meta name="description" content={site.desc} />
@@ -19,6 +20,7 @@ const Home = () => (
     </Head>
     <Header />
     <UI />
+    <Footer />
   </div>
 )
 
