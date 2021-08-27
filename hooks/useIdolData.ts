@@ -32,21 +32,24 @@ export const useIdolData = (name: string): Idol | undefined => {
     fetch(url)
       .then((res) => res.json())
       .then((json) => {
+        // データが無い
         if (!json?.results || json.results.bindings.length <= 0) return
 
         const binding = json.results.bindings[0]
         const bland: string = binding.bland.value
-        const hex: string = binding?.hex
-          ? binding.hex.value
-          : BlandColor[bland].hex
 
         const results: Idol = {
           name: binding.name.value,
-          hex: hex,
+          hex: binding?.hex ? binding.hex.value : BlandColor[bland].hex,
           url: binding.url?.value || 'https://idolmaster-official.jp/'
         }
 
         setIdolData(results)
+      })
+      .catch((_err) => {
+        alert(
+          'im@sparqlにアクセスできませんでした。\n時間をおいてから再度お試しください。'
+        )
       })
   }, [name])
 
