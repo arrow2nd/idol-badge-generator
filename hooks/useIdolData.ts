@@ -32,6 +32,8 @@ export const useIdolData = (name: string): Idol | undefined => {
     fetch(url)
       .then((res) => res.json())
       .then((json) => {
+        if (!json?.results || json.results.bindings.length <= 0) return
+
         const binding = json.results.bindings[0]
         const bland: string = binding.bland.value
         const hex: string = binding?.hex
