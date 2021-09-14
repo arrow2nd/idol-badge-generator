@@ -6,7 +6,7 @@
 
 [![七草にちか](https://img.shields.io/badge/%E6%8B%85%E5%BD%93-%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B-A5CFB6)](https://idollist.idolmaster-official.jp/detail/50024)
 
-↑こんな感じ
+↑ こんな感じ
 
 クリックしたらアイドル名鑑に飛ぶので、宣伝にもなります。
 
@@ -19,5 +19,5 @@
 yarn dev
 
 # アイドル名のリストを更新
-deno run --allow-net --allow-write  ./tools/create-data.js
+deno run --allow-net --allow-write ./tools/create-data.js
 ```
