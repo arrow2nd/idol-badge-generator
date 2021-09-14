@@ -1,0 +1,25 @@
+name: UpdateData
+
+on:
+  schedule:
+    - cron: '0 15 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Update data
+        run: deno run --allow-net --allow-write ./tools/create-data.js
+
+      - name: Commit the changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update data
