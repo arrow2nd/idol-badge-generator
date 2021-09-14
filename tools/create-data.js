@@ -20,27 +20,23 @@ const url = `https://sparql.crssnky.xyz/spql/imas/query?output=json&query=${enco
   query
 )}`
 
-async function main() {
-  const res = await fetch(url)
-  const json = await res.json()
+const res = await fetch(url)
+const json = await res.json()
 
-  const bindings = json.results.bindings.sort((a, b) =>
-    a.nameKana.value.localeCompare(b.nameKana.value, 'ja')
-  )
+const bindings = json.results.bindings.sort((a, b) =>
+  a.nameKana.value.localeCompare(b.nameKana.value, 'ja')
+)
 
-  const results = bindings.map((data) => {
-    return {
-      value: data.name.value,
-      label: data.name.value
-    }
-  })
+const results = bindings.map((data) => {
+  return {
+    value: data.name.value,
+    label: data.name.value
+  }
+})
 
-  Deno.writeTextFileSync(
-    './data/idol-list.ts',
-    'export const IdolList = ' + JSON.stringify(results, null, '  ')
-  )
+Deno.writeTextFileSync(
+  './data/idol-list.ts',
+  'export const IdolList = ' + JSON.stringify(results, null, '  ')
+)
 
-  console.log('success!')
-}
-
-main()
+console.log('[ success! ]')
