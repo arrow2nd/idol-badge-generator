@@ -96,6 +96,10 @@ export const IdolList = [
     "label": "天海春香"
   },
   {
+    "value": "亜夜",
+    "label": "亜夜"
+  },
+  {
     "value": "綾瀬穂乃香",
     "label": "綾瀬穂乃香"
   },
