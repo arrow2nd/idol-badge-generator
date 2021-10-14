@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "fmt:data": "yarn prettier --write ./data/*"
+    "fmt:data": "deno fmt ./data/*"
   },
   "dependencies": {
     "next": "11.1.2",
