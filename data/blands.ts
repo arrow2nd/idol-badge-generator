@@ -17,7 +17,7 @@ export const Blands: { [key: string]: Bland } = {
     hex: "FF74B8",
   },
   MillionLive: {
-    name: "Million Live!",
+    name: "MILLION LIVE!",
     url: "https://millionlive.idolmaster.jp/theaterdays/",
     hex: "FFC30B",
   },
@@ -27,12 +27,12 @@ export const Blands: { [key: string]: Bland } = {
     hex: "0FBE94",
   },
   CinderellaGirls: {
-    name: "Cinderella Girls",
+    name: "CINDERELLA GIRLS",
     url: "https://cinderella.idolmaster.jp/",
     hex: "2681C8",
   },
   ShinyColors: {
-    name: "Shiny Colors",
+    name: "SHINY COLORS",
     url: "https://shinycolors.idolmaster.jp/",
     hex: "8DBBFF",
   },
