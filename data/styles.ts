@@ -1,4 +1,4 @@
-export const StyleList = [
+export const Styles = [
   {
     value: "plastic",
     label: "Plastic",

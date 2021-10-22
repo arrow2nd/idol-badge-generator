@@ -1,4 +1,4 @@
-export const IdolList = [
+export const Idols = [
   {
     "value": "相川千夏",
     "label": "相川千夏",

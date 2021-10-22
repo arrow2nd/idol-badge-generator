@@ -1,5 +1,5 @@
-import { IdolList } from '../../data/idol-list'
-import { StyleList } from '../../data/style-list'
+import { Idols } from '../../data/idols'
+import { Styles } from '../../data/styles'
 import Select from './select'
 
 type Props = {
@@ -10,10 +10,10 @@ type Props = {
 const InputArea = ({ onChangeName, onChangeStyle }: Props) => {
   return (
     <div>
-      <Select title="アイドルを選択" list={IdolList} onChange={onChangeName} />
+      <Select title="アイドルを選択" list={Idols} onChange={onChangeName} />
       <Select
         title="バッジのスタイル"
-        list={StyleList}
+        list={Styles}
         defaultValueIndex={1}
         onChange={onChangeStyle}
       />

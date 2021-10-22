@@ -35,8 +35,8 @@ const results = bindings.map((data) => {
 })
 
 Deno.writeTextFileSync(
-  './data/idol-list.ts',
-  'export const IdolList = ' + JSON.stringify(results, null, '  ')
+  './data/idols.ts',
+  'export const Idols = ' + JSON.stringify(results, null, '  ')
 )
 
 console.log('[ success! ]')

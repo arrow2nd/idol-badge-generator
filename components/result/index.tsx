@@ -8,7 +8,7 @@ type Props = {
 }
 
 const Results = ({ idolData, style }: Props) => {
-  const paramLabel = encodeURIComponent('担当')
+  const paramLabel = encodeURIComponent(idolData.bland)
   const paramName = encodeURIComponent(idolData.name)
   const paramStyle = style ? `?style=${style}` : ''
 

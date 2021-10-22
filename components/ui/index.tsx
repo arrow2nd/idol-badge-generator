@@ -6,15 +6,11 @@ import Result from '../result'
 const UI = () => {
   const [name, setName] = useState('')
   const [style, setStyle] = useState('')
+
   const idolData = useIdolData(name)
 
-  const handleNameChange = (name: string) => {
-    setName(name)
-  }
-
-  const handleStyleChange = (style: string) => {
-    setStyle(style)
-  }
+  const handleNameChange = (name: string) => setName(name)
+  const handleStyleChange = (style: string) => setStyle(style)
 
   return (
     <div className="flex flex-col mb-6 items-center text-center">
