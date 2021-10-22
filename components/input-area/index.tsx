@@ -12,7 +12,7 @@ const InputArea = ({ onChangeName, onChangeStyle }: Props) => {
     <div>
       <Select title="アイドルを選択" list={Idols} onChange={onChangeName} />
       <Select
-        title="バッジのスタイル"
+        title="バッジのスタイルを選択"
         list={Styles}
         defaultValueIndex={1}
         onChange={onChangeStyle}

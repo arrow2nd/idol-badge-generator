@@ -1,11 +1,9 @@
-# producer-budge-generator
+# idol-badge-generator
 
-[![UpdateData](https://github.com/arrow2nd/producer-budge-generator/actions/workflows/update-data.yaml/badge.svg)](https://github.com/arrow2nd/producer-budge-generator/actions/workflows/update-data.yaml)
-[![deno.land](https://img.shields.io/badge/deno-%5E1.15.1-lightgray?logo=deno)](https://deno.land)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
-[![GitHub license](https://img.shields.io/github/license/arrow2nd/producer-budge-generator)](https://github.com/arrow2nd/producer-budge-generator/blob/main/LICENSE)
+[![UpdateData](https://github.com/arrow2nd/idol-badge-generator/actions/workflows/update-data.yaml/badge.svg)](https://github.com/arrow2nd/idol-badge-generator/actions/workflows/update-data.yaml)
+[![GitHub license](https://img.shields.io/github/license/arrow2nd/idol-badge-generator)](https://github.com/arrow2nd/idol-badge-generator/blob/main/LICENSE)
 
-> アイマスアイドルのバッジをつくるやつです
+> アイマスアイドルのバッジをつくるやつ
 
 [![我那覇響](https://img.shields.io/badge/IDOLM%40STER-%E6%88%91%E9%82%A3%E8%A6%87%E9%9F%BF-01ADB9)](https://idollist.idolmaster-official.jp/detail/10003)
 [![周防桃子](https://img.shields.io/badge/MILLION%20LIVE!-%E5%91%A8%E9%98%B2%E6%A1%83%E5%AD%90-EFB864)](https://idollist.idolmaster-official.jp/detail/30015)
