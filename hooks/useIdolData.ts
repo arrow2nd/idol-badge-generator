@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Idol } from '../types/idol'
-import { BlandColor } from '../data/bland-color'
+import { Blands } from '../data/blands'
 
 export const useIdolData = (name: string): Idol | undefined => {
   const [idolData, setIdolData] = useState<Idol>()
@@ -36,15 +36,14 @@ export const useIdolData = (name: string): Idol | undefined => {
         if (!json?.results || json.results.bindings.length <= 0) return
 
         const binding = json.results.bindings[0]
-        const bland: string = binding.bland.value
+        const bland = Blands[binding.bland.value] ?? Blands['Other']
 
-        const results: Idol = {
+        setIdolData({
+          bland: bland.name,
           name: binding.name.value,
-          hex: binding?.hex ? binding.hex.value : BlandColor[bland].hex,
-          url: binding.url?.value || 'https://idolmaster-official.jp/'
-        }
-
-        setIdolData(results)
+          hex: binding.hex?.value || bland.hex,
+          url: binding.url?.value || bland.url
+        })
       })
       .catch((_err) => {
         alert(
