@@ -1,4 +1,4 @@
-// deno run --allow-net --allow-write  ./tools/create-data.js
+// deno run --allow-net --allow-write ./tools/create-idol-list.js
 
 const query = `
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -20,19 +20,27 @@ const url = `https://sparql.crssnky.xyz/spql/imas/query?output=json&query=${enco
   query
 )}`
 
-const res = await fetch(url)
+// 5秒でタイムアウト
+const ctrl = new AbortController()
+const id = setTimeout(() => ctrl.abort(), 5000)
+
+const res = await fetch(url, { signal: ctrl.signal }).catch((err) => {
+  console.error(`[Error] timeout! (${err})`)
+  Deno.exit(1)
+})
+
+clearTimeout(id)
+
 const json = await res.json()
 
 const bindings = json.results.bindings.sort((a, b) =>
   a.nameKana.value.localeCompare(b.nameKana.value, 'ja')
 )
 
-const results = bindings.map((data) => {
-  return {
-    value: data.name.value,
-    label: data.name.value
-  }
-})
+const results = bindings.map((data) => ({
+  value: data.name.value,
+  label: data.name.value
+}))
 
 Deno.writeTextFileSync(
   './data/idols.ts',

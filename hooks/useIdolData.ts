@@ -29,8 +29,15 @@ export const useIdolData = (name: string): Idol | undefined => {
       query
     )}`
 
-    fetch(url)
-      .then((res) => res.json())
+    // 5秒でタイムアウト
+    const ctrl = new AbortController()
+    const id = setTimeout(() => ctrl.abort(), 5000)
+
+    fetch(url, { signal: ctrl.signal })
+      .then((res) => {
+        clearTimeout(id)
+        res.json()
+      })
       .then((json) => {
         // データが無い
         if (!json?.results || json.results.bindings.length <= 0) return
