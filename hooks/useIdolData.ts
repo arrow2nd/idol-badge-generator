@@ -36,7 +36,7 @@ export const useIdolData = (name: string): Idol | undefined => {
     fetch(url, { signal: ctrl.signal })
       .then((res) => {
         clearTimeout(id)
-        res.json()
+        return res.json()
       })
       .then((json) => {
         // データが無い
