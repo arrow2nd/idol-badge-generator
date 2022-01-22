@@ -12,7 +12,7 @@ type Props = {
   onChange: (name: string) => void
 }
 
-const Select = forwardRef((props: Props, ref: ForwardedRef<any>) => {
+const Select = (props: Props, ref: ForwardedRef<any>) => {
   const handleChangeSelect = (value: { value: string } | null) => {
     if (value) {
       props.onChange(value.value)
@@ -35,6 +35,6 @@ const Select = forwardRef((props: Props, ref: ForwardedRef<any>) => {
       />
     </div>
   )
-})
+}
 
-export default Select
+export default forwardRef(Select)
