@@ -1,4 +1,4 @@
-name: UpdateData
+name: update
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
     - cron: '0 15 * * *'
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Set branch name as environment variable
@@ -37,12 +37,12 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: ${{ env.NEW_BRANCH_NAME }}
-          commit_message: 'update: idol list'
+          commit_message: 'chore: アイドル名リストを更新'
 
       - name: Create pull request
         uses: repo-sync/pull-request@v2
         with:
           source_branch: ${{ env.NEW_BRANCH_NAME }}
           destination_branch: 'main'
-          pr_title: 'update: アイドル名リスト'
+          pr_title: 'chore: アイドル名リストを更新'
           github_token: ${{ secrets.GITHUB_TOKEN }}
