@@ -2,7 +2,8 @@
 
 アイマスアイドルのバッジジェネレータ
 
-[![UpdateData](https://github.com/arrow2nd/idol-badge-generator/actions/workflows/update-data.yaml/badge.svg)](https://github.com/arrow2nd/idol-badge-generator/actions/workflows/update-data.yaml)
+[![update](https://github.com/arrow2nd/idol-badge-generator/actions/workflows/update.yaml/badge.svg)](https://github.com/arrow2nd/idol-badge-generator/actions/workflows/update.yaml)
+[![Depfu](https://badges.depfu.com/badges/3d36be5cde3edf300dcaa05fe5c71406/overview.svg)](https://depfu.com/github/arrow2nd/idol-badge-generator?project_id=34196)
 [![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=idol-badge-generator)](https://idol-badge-generator.vercel.app)
 [![GitHub license](https://img.shields.io/github/license/arrow2nd/idol-badge-generator)](https://github.com/arrow2nd/idol-badge-generator/blob/main/LICENSE)
 
@@ -20,11 +21,11 @@
 
 いえー
 
-## ビルドと実行
+## 実行
 
-```sh
-# とりあえず実行
-yarn dev
+```
+# ビルド & 実行
+yarn build & yarn start
 
 # アイドルのリストを更新
 deno run --allow-net --allow-write ./tools/create-data.js
