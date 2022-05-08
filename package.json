@@ -14,15 +14,15 @@
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "18.1.0",
     "react-icons": "^4.3.1",
-    "react-select": "^5.2.2"
+    "react-select": "^5.3.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.31",
     "@types/react": "18.0.9",
     "@types/react-copy-to-clipboard": "^5.0.2",
     "@types/react-select": "^5.0.1",
-    "autoprefixer": "^10.4.5",
-    "eslint": "8.12.0",
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.15.0",
     "eslint-config-next": "12.1.6",
     "eslint-config-prettier": "^8.5.0",
     "postcss": "^8.4.13",
