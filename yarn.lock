@@ -325,10 +325,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^17.0.31":
-  version: 17.0.31
-  resolution: "@types/node@npm:17.0.31"
-  checksum: 704618350f8420d5c47db0f7778398e821b7724369946f5c441a7e6b9343295553936400eb8309f0b07d5e39c240988ab3456b983712ca86265dabc9aee4ad3d
+"@types/node@npm:^17.0.42":
+  version: 17.0.42
+  resolution: "@types/node@npm:17.0.42"
+  checksum: a200cd87e4f12d4d5682a893ad6e1140720c6c074a2cd075f254b3b8306d6174f5a3630e5d2347efb5e9b80d420404b5fafc8fe3c7d4c81998cd914c50b19f75
   languageName: node
   linkType: hard
 
@@ -1824,7 +1824,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "idol-badge-generator@workspace:."
   dependencies:
-    "@types/node": ^17.0.31
+    "@types/node": ^17.0.42
     "@types/react": 17.0.43
     "@types/react-copy-to-clipboard": ^5.0.2
     "@types/react-select": ^5.0.1
