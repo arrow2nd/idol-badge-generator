@@ -1,6 +1,5 @@
 {
   "name": "idol-badge-generator",
-  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,26 +8,26 @@
     "fmt:data": "deno fmt ./data/*"
   },
   "dependencies": {
-    "next": "12.1.6",
-    "react": "18.1.0",
+    "next": "12.2.5",
+    "react": "18.2.0",
     "react-copy-to-clipboard": "^5.1.0",
-    "react-dom": "18.1.0",
+    "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
-    "react-select": "^5.2.2"
+    "react-select": "^5.4.0"
   },
   "devDependencies": {
-    "@types/node": "^17.0.44",
-    "@types/react": "17.0.43",
+    "@types/node": "^18.7.6",
+    "@types/react": "18.0.17",
     "@types/react-copy-to-clipboard": "^5.0.4",
     "@types/react-select": "^5.0.1",
     "autoprefixer": "^10.4.8",
-    "eslint": "8.12.0",
-    "eslint-config-next": "12.1.6",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
     "eslint-config-prettier": "^8.5.0",
     "postcss": "^8.4.16",
     "prettier": "^2.7.1",
     "tailwindcss": "^3.1.8",
-    "typescript": "4.6.4"
+    "typescript": "4.7.4"
   },
   "packageManager": "yarn@3.1.1"
 }
