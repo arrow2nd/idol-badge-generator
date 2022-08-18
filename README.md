@@ -24,9 +24,11 @@
 ## 実行
 
 ```
-# ビルド & 実行
 yarn build && yarn start
+```
 
-# アイドルのリストを更新
+## アイドルのリストを更新
+
+```
 deno run --allow-net --allow-write ./tools/create-data.js
 ```
