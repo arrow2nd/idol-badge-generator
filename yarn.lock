@@ -570,15 +570,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-copy-to-clipboard@npm:^5.0.4":
-  version: 5.0.4
-  resolution: "@types/react-copy-to-clipboard@npm:5.0.4"
-  dependencies:
-    "@types/react": "*"
-  checksum: c0fe51b79a393d4c1fa5f8a288793c03f791e0d979abaa6ae587de53b8e3bc1f05e3379e7539077a21c9d66c12c3fad3ab6684f836f2ba7a55b9589de8500738
-  languageName: node
-  linkType: hard
-
 "@types/react-select@npm:^5.0.1":
   version: 5.0.1
   resolution: "@types/react-select@npm:5.0.1"
@@ -608,14 +599,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.50":
-  version: 17.0.50
-  resolution: "@types/react@npm:17.0.50"
+"@types/react@npm:18.0.20":
+  version: 18.0.20
+  resolution: "@types/react@npm:18.0.20"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: b5629dff7c2f3e9fcba95a19b2b3bfd78d7cacc33ba5fc26413dba653d34afcac3b93ddabe563e8062382688a1eac7db68e93739bb8e712d27637a03aaafbbb8
+  checksum: f67f5b16efd89e237bf0e40d133218c398cf2a2f81166ce1e9fa32d0df6b869106740983396c51df9708a1b79b2a9d725eda1230cc3064c92d86d9ea6a4b714c
   languageName: node
   linkType: hard
 
@@ -2284,8 +2275,7 @@ __metadata:
   resolution: "idol-badge-generator@workspace:."
   dependencies:
     "@types/node": ^18.7.18
-    "@types/react": 17.0.50
-    "@types/react-copy-to-clipboard": ^5.0.4
+    "@types/react": 18.0.20
     "@types/react-select": ^5.0.1
     autoprefixer: ^10.4.11
     eslint: 8.23.1

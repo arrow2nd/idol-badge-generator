@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { FiCopy, FiCheckCircle } from 'react-icons/fi'
-import { CopyToClipboard } from 'react-copy-to-clipboard'
+import CopyToClipboard from 'react-copy-to-clipboard'
 import Title from '../title'
 
 type Props = {

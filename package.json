@@ -17,8 +17,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.7.18",
-    "@types/react": "17.0.50",
-    "@types/react-copy-to-clipboard": "^5.0.4",
+    "@types/react": "18.0.20",
     "@types/react-select": "^5.0.1",
     "autoprefixer": "^10.4.11",
     "eslint": "8.23.1",
