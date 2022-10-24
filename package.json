@@ -16,7 +16,7 @@
     "react-select": "^5.5.4"
   },
   "devDependencies": {
-    "@types/node": "^18.11.3",
+    "@types/node": "^18.11.4",
     "@types/react": "18.0.21",
     "@types/react-select": "^5.0.1",
     "autoprefixer": "^10.4.12",
