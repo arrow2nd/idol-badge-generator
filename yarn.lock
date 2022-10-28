@@ -558,10 +558,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.11.6":
-  version: 18.11.6
-  resolution: "@types/node@npm:18.11.6"
-  checksum: 25713209b5f8758e782348514e7bd2342bd8edb38038380c66f37b41b12d6840763edb17d81f6451591791c9d59c8255be54591333fc302f473beadada0023e6
+"@types/node@npm:^18.11.7":
+  version: 18.11.7
+  resolution: "@types/node@npm:18.11.7"
+  checksum: 69d630825cf6fbf580d08d76a4d4836ef8c34ed4fe0842221ade87d275f517099cbfabe8e22397208e564bd24926db97699ab9db5c091383269a432b336665e2
   languageName: node
   linkType: hard
 
@@ -2296,7 +2296,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "idol-badge-generator@workspace:."
   dependencies:
-    "@types/node": ^18.11.6
+    "@types/node": ^18.11.7
     "@types/react": 18.0.21
     "@types/react-select": ^5.0.1
     autoprefixer: ^10.4.12
@@ -2310,7 +2310,7 @@ __metadata:
     react-copy-to-clipboard: ^5.1.0
     react-dom: 18.2.0
     react-icons: ^4.6.0
-    react-select: ^5.5.6
+    react-select: ^5.5.7
     tailwindcss: ^3.2.1
     typescript: 4.8.4
   languageName: unknown
@@ -3562,9 +3562,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-select@npm:^5.5.6":
-  version: 5.5.6
-  resolution: "react-select@npm:5.5.6"
+"react-select@npm:^5.5.7":
+  version: 5.5.7
+  resolution: "react-select@npm:5.5.7"
   dependencies:
     "@babel/runtime": ^7.12.0
     "@emotion/cache": ^11.4.0
@@ -3578,7 +3578,7 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: f5adc55b3e6d5de0a73fd10e57705f8d5ff94e97c6296fedce974d17949b56626bcb172eddab84fb9b76d22bdf06201b71dd5aac871e90fbd867debf98d8b4d2
+  checksum: c6b1752c8c5b89c9dc5c27ba985dce693049891c0942a19ec516658fecbba535a4e3b5fa7c815a326617704eeba8ae65f395ef68dd7dfa618acd1dc234774b01
   languageName: node
   linkType: hard
 
