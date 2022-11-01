@@ -13,10 +13,10 @@
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0",
-    "react-select": "^5.5.8"
+    "react-select": "^5.5.9"
   },
   "devDependencies": {
-    "@types/node": "^18.11.8",
+    "@types/node": "^18.11.9",
     "@types/react": "18.0.21",
     "@types/react-select": "^5.0.1",
     "autoprefixer": "^10.4.12",
