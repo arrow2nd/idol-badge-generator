@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import { FiCopy, FiCheckCircle } from 'react-icons/fi'
-import CopyToClipboard from 'react-copy-to-clipboard'
-import Title from '../title'
+import { useReducer } from 'react'
+import { FiCheckCircle, FiCopy } from 'react-icons/fi'
+
+import Title from 'components/title'
 
 type Props = {
   label: string
@@ -9,11 +9,12 @@ type Props = {
 }
 
 const Input = ({ label, text }: Props) => {
-  const [isCopied, setCopied] = useState(false)
+  const [isCopied, toggleCopied] = useReducer((prev) => !prev, false)
 
-  const handleCopy = () => {
-    setCopied(true)
-    setInterval(() => setCopied(false), 2000)
+  const copyToClipboard = async () => {
+    await navigator.clipboard.writeText(text)
+    toggleCopied()
+    setTimeout(() => toggleCopied(), 2000)
   }
 
   return (
@@ -26,11 +27,12 @@ const Input = ({ label, text }: Props) => {
           value={text}
           readOnly
         />
-        <CopyToClipboard text={text} onCopy={handleCopy}>
-          <button className="p-1.5 border bg-white hover:bg-gray-200 text-xl rounded-md transition-colors">
-            {isCopied ? <FiCheckCircle /> : <FiCopy />}
-          </button>
-        </CopyToClipboard>
+        <button
+          className="p-1.5 border bg-white hover:bg-gray-200 text-xl rounded-md transition-colors"
+          onClick={() => copyToClipboard()}
+        >
+          {isCopied ? <FiCheckCircle /> : <FiCopy />}
+        </button>
       </div>
     </div>
   )

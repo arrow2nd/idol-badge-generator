@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
-import { Idol } from '../types/idol'
+
 import { Blands } from '../data/blands'
+import { Idol } from '../types/idol'
 
 export const useIdolData = (name: string): Idol | undefined => {
   const [idolData, setIdolData] = useState<Idol>()

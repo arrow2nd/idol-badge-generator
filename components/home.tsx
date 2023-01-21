@@ -1,8 +1,10 @@
-import { site } from '../data/site'
 import Head from 'next/head'
+
+import { site } from 'data/site'
+
+import Footer from './footer'
 import Header from './header'
 import UI from './ui'
-import Footer from './footer'
 
 const Home = () => {
   const { title, desc, url } = site
@@ -16,7 +18,6 @@ const Home = () => {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={desc} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content="@arrow_2nd" />
         <meta name="twitter:url" content={url} />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={desc} />

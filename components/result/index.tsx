@@ -1,4 +1,4 @@
-import { Idol } from '../../types/idol'
+import { Idol } from 'types/idol'
 import Badge from './badge'
 import Input from './input'
 
