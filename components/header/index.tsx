@@ -1,4 +1,4 @@
-import { site } from '../../data/site'
+import { site } from 'data/site'
 
 const Header = () => (
   <div className="w-full mb-12 text-center">

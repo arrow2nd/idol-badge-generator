@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Title from '../title'
+import Title from 'components/title'
 
 type Props = {
   url: string

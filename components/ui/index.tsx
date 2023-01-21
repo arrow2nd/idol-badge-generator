@@ -1,7 +1,9 @@
 import { useState } from 'react'
-import { useIdolData } from '../../hooks/useIdolData'
-import InputArea from '../input-area'
-import Result from '../result'
+
+import InputArea from 'components/input-area'
+import Result from 'components/result'
+
+import { useIdolData } from 'hooks/useIdolData'
 
 const UI = () => {
   const [name, setName] = useState('')

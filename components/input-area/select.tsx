@@ -1,6 +1,7 @@
-import { forwardRef, ForwardedRef } from 'react'
+import { ForwardedRef, forwardRef } from 'react'
 import ReactSelect from 'react-select'
-import Title from '../title'
+
+import Title from 'components/title'
 
 type Props = {
   title: string
