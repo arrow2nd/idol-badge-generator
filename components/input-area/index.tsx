@@ -1,5 +1,6 @@
 import { Idols } from 'data/idols'
 import { Styles } from 'data/styles'
+
 import Select from './select'
 
 type Props = {
