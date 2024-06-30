@@ -116,6 +116,10 @@ export const Idols = [
     "label": "有栖川夏葉",
   },
   {
+    "value": "有村麻央",
+    "label": "有村麻央",
+  },
+  {
     "value": "安斎都",
     "label": "安斎都",
   },
@@ -130,6 +134,10 @@ export const Idols = [
   {
     "value": "斑鳩ルカ",
     "label": "斑鳩ルカ",
+  },
+  {
+    "value": "郁田はるき",
+    "label": "郁田はるき",
   },
   {
     "value": "池袋晶葉",
@@ -300,6 +308,10 @@ export const Idols = [
     "label": "片桐早苗",
   },
   {
+    "value": "葛城リーリヤ",
+    "label": "葛城リーリヤ",
+  },
+  {
     "value": "我那覇響",
     "label": "我那覇響",
   },
@@ -410,6 +422,10 @@ export const Idols = [
   {
     "value": "工藤忍",
     "label": "工藤忍",
+  },
+  {
+    "value": "倉本千奈",
+    "label": "倉本千奈",
   },
   {
     "value": "クラリス",
@@ -572,12 +588,20 @@ export const Idols = [
     "label": "椎名法子",
   },
   {
+    "value": "紫雲清夏",
+    "label": "紫雲清夏",
+  },
+  {
     "value": "塩見周子",
     "label": "塩見周子",
   },
   {
     "value": "四条貴音",
     "label": "四条貴音",
+  },
+  {
+    "value": "篠澤広",
+    "label": "篠澤広",
   },
   {
     "value": "東雲荘一郎",
@@ -602,6 +626,10 @@ export const Idols = [
   {
     "value": "島村卯月",
     "label": "島村卯月",
+  },
+  {
+    "value": "十王星南",
+    "label": "十王星南",
   },
   {
     "value": "首藤葵",
@@ -654,6 +682,10 @@ export const Idols = [
   {
     "value": "杉坂海",
     "label": "杉坂海",
+  },
+  {
+    "value": "鈴木羽那",
+    "label": "鈴木羽那",
   },
   {
     "value": "涼宮星花",
@@ -750,6 +782,10 @@ export const Idols = [
   {
     "value": "月宮雅",
     "label": "月宮雅",
+  },
+  {
+    "value": "月村手毬",
+    "label": "月村手毬",
   },
   {
     "value": "九十九一希",
@@ -904,6 +940,10 @@ export const Idols = [
     "label": "硲道夫",
   },
   {
+    "value": "秦谷美鈴",
+    "label": "秦谷美鈴",
+  },
+  {
     "value": "八宮めぐる",
     "label": "八宮めぐる",
   },
@@ -914,6 +954,14 @@ export const Idols = [
   {
     "value": "花園百々人",
     "label": "花園百々人",
+  },
+  {
+    "value": "花海佑芽",
+    "label": "花海佑芽",
+  },
+  {
+    "value": "花海咲季",
+    "label": "花海咲季",
   },
   {
     "value": "華村翔真",
@@ -980,6 +1028,10 @@ export const Idols = [
     "label": "姫川友紀",
   },
   {
+    "value": "姫崎莉波",
+    "label": "姫崎莉波",
+  },
+  {
     "value": "姫野かのん",
     "label": "姫野かのん",
   },
@@ -1002,6 +1054,10 @@ export const Idols = [
   {
     "value": "藤居朋",
     "label": "藤居朋",
+  },
+  {
+    "value": "藤田ことね",
+    "label": "藤田ことね",
   },
   {
     "value": "藤本里奈",
