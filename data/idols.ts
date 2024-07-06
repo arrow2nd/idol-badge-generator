@@ -324,6 +324,10 @@ export const Idols = [
     "label": "上条春菜",
   },
   {
+    "value": "上水流宇宙",
+    "label": "上水流宇宙",
+  },
+  {
     "value": "神谷奈緒",
     "label": "神谷奈緒",
   },
@@ -838,6 +842,10 @@ export const Idols = [
   {
     "value": "十時愛梨",
     "label": "十時愛梨",
+  },
+  {
+    "value": "灯里愛夏",
+    "label": "灯里愛夏",
   },
   {
     "value": "豊川風花",
@@ -1366,6 +1374,10 @@ export const Idols = [
   {
     "value": "玲音",
     "label": "玲音",
+  },
+  {
+    "value": "レトラ",
+    "label": "レトラ",
   },
   {
     "value": "ロコ",
