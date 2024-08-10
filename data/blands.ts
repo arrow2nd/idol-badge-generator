@@ -36,6 +36,11 @@ export const Blands: { [key: string]: Bland } = {
     url: "https://shinycolors.idolmaster.jp/",
     hex: "8DBBFF",
   },
+  Gakuen: {
+    name: "学園アイドルマスター",
+    url: "https://gakuen.idolmaster-official.jp/",
+    hex: "F39800",
+  },
   Other: {
     name: "Other",
     url: "https://idolmaster-official.jp/",
